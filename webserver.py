@@ -20,9 +20,9 @@ out3 = output3[1]
 
 if status1 == 0 :
         print("Apache software installed successfully")
-        if status == 2:
+        if status2 == 0:
             print("Apache webserver service is started")
-            if status == 3:
+            if status3 == 0:
                 print("Apache webservice is enabled")
             else:
                 print("error occuring during Apache webservice enable")
